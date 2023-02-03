@@ -1,0 +1,12 @@
+# Get the RGB values
+red = int(input('Enter the red value (0-255) : '))
+green = int(input('Enter the green value (0-255) : '))
+blue = int(input('Enter the blue value (0-255) : '))
+
+# Convert RGB values to hex
+red_hex = hex(red)[2:]
+green_hex = hex(green)[2:]
+blue_hex = hex(blue)[2:]
+
+# Output the hex code
+print('Hex code: #' + red_hex + green_hex + blue_hex)
