@@ -1,0 +1,8 @@
+url = input()
+
+if "=" in url:
+    res = url.split("=")
+else:
+    res =url.split("/")   
+     
+print(res[-1])
